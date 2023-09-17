@@ -7,8 +7,6 @@ const app = express();
 
 app.use(BodyParser.json());
 app.use(BodyParser.urlencoded({extended : true}));
-app.use()
-
 
 app.post('/callback', (req, res) => {
 
