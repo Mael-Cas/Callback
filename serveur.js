@@ -10,7 +10,7 @@ app.use(BodyParser.urlencoded({extended : true}));
 
 app.post('/callback', (req, res) => {
 
-    console.log(req)
+    console.log(req.data)
 
 })
 
